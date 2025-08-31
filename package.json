@@ -1,9 +1,9 @@
 {
   "name": "@enfyra/vue-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Enfyra SDK for Vue.js applications",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
@@ -42,5 +42,8 @@
   "bugs": {
     "url": "https://github.com/enfyra/vue-sdk/issues"
   },
-  "homepage": "https://github.com/enfyra/vue-sdk#readme"
+  "homepage": "https://github.com/enfyra/vue-sdk#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
