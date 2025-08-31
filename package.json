@@ -10,7 +10,7 @@
     "src"
   ],
   "scripts": {
-    "build": "tsc && vite build",
+    "build": "vite build",
     "dev": "vite build --watch",
     "test": "vitest",
     "prepublishOnly": "npm run build"
