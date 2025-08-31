@@ -1,0 +1,9 @@
+examples/
+docs/
+*.log
+.env
+.env.local
+.env.*.local
+tsconfig.json
+vite.config.ts
+node_modules/
